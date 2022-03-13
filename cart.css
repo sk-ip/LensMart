@@ -1,0 +1,37 @@
+.cart__page {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.cart__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.cart__card {
+    width: 65%;
+    justify-content: space-evenly;
+}
+
+.cart__card > img {
+    width: 200px;
+    height: 200px;
+}
+
+.cart__content {
+    align-items: flex-start;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart__content > p {
+    margin: 0 10px;
+}
