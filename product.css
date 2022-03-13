@@ -1,0 +1,47 @@
+.product__page {
+    margin: 30px auto;
+    display: flex;
+}
+
+.product__filters {
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+}
+
+.product__list {
+    flex: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product__card {
+    border: 1px solid black;
+    width: 230px;
+}
+
+.product__card > p {
+    margin: 0 10px;
+}
+
+.product__card > img {
+    width: 230px;
+}
+
+.product__btn {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.product__filters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.product__filter__section {
+    display: flex;
+    flex-direction: column;
+}

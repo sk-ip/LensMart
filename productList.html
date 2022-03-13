@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://lucid-u.netlify.app/component/library.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product.css">
+    <title>LensMart | Shop</title>
+</head>
+<body>
+    <div class="header">
+        <a href="./index.html"><p class="brand heading3">LensMart</p></a>
+        <div class="header__search" >
+            <input type="text" name="" id="">
+            <span class="material-icons search__icon ">search</span>
+        </div>
+        <div class="header__icons" >
+            <a href="./login.html"><button class="btn btn-primary" >Login</button></a>
+            <a href="./wishlist.html">
+                <div class="relative">
+                <span class="material-icons">favorite_border</span>
+                <div class="badge badge-top-right badge-success">0</div>
+            </div>
+            </a>
+            <a href="./cart.html">
+                <div class="relative">
+                <span class="material-icons">shopping_cart</span>
+                <div class="badge badge-top-right badge-success">0</div>
+          </div>
+            </a>
+        </div>
+    </div>
+    <div class="product__page" >
+
+        <div class="product__filters" >
+            <div class="flex-row" >
+                <p class="text4" >Filters</p>
+                <p class="text4" >Clear</p>
+            </div>
+
+            <div class="product__filter__section">
+                <p class="text3" >Price</p>
+                <input type="range" list="tickmarks">
+                <datalist id="tickmarks">
+                <option value="0" label="0%"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50" label="50%"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100" label="100%"></option>
+                </datalist>
+
+
+                <p class="text3" >Category</p>
+                <div class="flex-row" >
+                    <input type="checkbox" id="specs" name="specs" value="specs">
+                    <label for="specs">Specs</label><br>
+                </div>
+                <div class="flex-row" >
+                    <input type="checkbox" id="sun-glasses" name="sun-glasses" value="sun-glasses">
+                    <label for="sun-glasses">Sun Glasses</label><br>
+                </div>
+                <div class="flex-row" >
+                    <input type="checkbox" id="goggles" name="goggles" value="goggles">
+                    <label for="goggles">Goggles</label><br>
+                </div>
+                <div class="flex-row" >
+                    <input type="checkbox" id="frames" name="frames" value="frames">
+                    <label for="frames">Frames</label><br>
+                </div>
+                <p class="text3" >Rating</p>
+                <div class="flex-row" >
+                    <input type="radio" id="rating" name="rating" value="5">
+                    <label for="html">5 Star</label><br>
+                </div>
+                <div class="flex-row" >
+                    <input type="radio" id="rating" name="rating" value="4">
+                    <label for="html">4 Star</label><br>
+                </div>
+                <div class="flex-row" >
+                    <input type="radio" id="rating" name="rating" value="3">
+                    <label for="html">3 Star</label><br>
+                </div>
+                <div class="flex-row" >
+                    <input type="radio" id="rating" name="rating" value="2">
+                    <label for="html">2 Star</label><br>
+                </div>
+                <div class="flex-row" >
+                    <input type="radio" id="rating" name="rating" value="1">
+                    <label for="html">1 Star</label><br>
+                </div>
+                <p class="text3" >Sort By</p>
+                <div class="flex-row" >
+                    <input type="radio" id="price-sort" name="price-sort" value="increase">
+                    <label for="html">Pirce - Low to High</label><br>
+                </div>
+                <div class="flex-row" >
+                    <input type="radio" id="price-sort" name="price-sort" value="decrease">
+                    <label for="html">Price - High to Low</label><br>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="product__list" >
+            <div class="card relative product__card " >
+            <img class="card-image" src="https://picsum.photos/200/150" alt="" />
+            <p class="card-subtitle bold ">Name</p>
+            <p class="card-subtitle semibold ">Rs. 1200</p>
+            <button class="btn btn-outline-primary product__btn " >Add to Wishlist</button>
+            <button class="btn btn-primary product__btn" >Add to Cart</button>
+            </div>
+
+            <div class="card relative product__card " >
+            <img class="card-image" src="https://picsum.photos/200/150" alt="" />
+            <p class="card-subtitle bold ">Name</p>
+            <p class="card-subtitle semibold ">Rs. 1200</p>
+            <button class="btn btn-outline-primary product__btn " >Add to Wishlist</button>
+            <button class="btn btn-primary product__btn" >Add to Cart</button>
+            </div>
+
+            <div class="card relative product__card " >
+            <img class="card-image" src="https://picsum.photos/200/150" alt="" />
+            <p class="card-subtitle bold ">Name</p>
+            <p class="card-subtitle semibold ">Rs. 1200</p>
+            <button class="btn btn-outline-primary product__btn " >Add to Wishlist</button>
+            <button class="btn btn-primary product__btn" >Add to Cart</button>
+            </div>
+
+            <div class="card relative product__card " >
+            <img class="card-image" src="https://picsum.photos/200/150" alt="" />
+            <p class="card-subtitle bold ">Name</p>
+            <p class="card-subtitle semibold ">Rs. 1200</p>
+            <button class="btn btn-outline-primary product__btn " >Add to Wishlist</button>
+            <button class="btn btn-primary product__btn" >Add to Cart</button>
+            </div>
+
+            <div class="card relative product__card " >
+            <img class="card-image" src="https://picsum.photos/200/150" alt="" />
+            <p class="card-subtitle bold ">Name</p>
+            <p class="card-subtitle semibold ">Rs. 1200</p>
+            <button class="btn btn-outline-primary product__btn " >Add to Wishlist</button>
+            <button class="btn btn-primary product__btn" >Add to Cart</button>
+            </div>
+
+            <div class="card relative product__card " >
+            <img class="card-image" src="https://picsum.photos/200/150" alt="" />
+            <p class="card-subtitle bold ">Name</p>
+            <p class="card-subtitle semibold ">Rs. 1200</p>
+            <button class="btn btn-outline-primary product__btn " >Add to Wishlist</button>
+            <button class="btn btn-primary product__btn" >Add to Cart</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
